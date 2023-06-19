@@ -1,0 +1,12 @@
+[package]
+name = "btc-addr"
+version = "0.1.0"
+edition = "2021"
+authors = ["Einherjar <realeinherjar@proton.me>"]
+description = "A simple command line tool to generate Bitcoin addresses from a XPUB"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+bdk = "0.28.0"
+clap = { version = "4.3.0", features = ["derive"] }
